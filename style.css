@@ -1,0 +1,27 @@
+.button{
+  
+    width: 13%;
+
+    margin: 4px 2px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 32px;
+    background-color:white;
+    transition-duration: 0.4s;
+    color:black;
+    }
+
+.button:hover {
+    background-color: black;
+    color:white;
+    padding: 20px 37px; 
+      
+}
+
+.imagenes{
+    width: 30px;
+}
+
+body{
+    text-align: center;
+}
