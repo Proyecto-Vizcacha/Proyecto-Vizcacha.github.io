@@ -22,7 +22,7 @@ fetch(ruta_info)
             cont_imagen.src = "img/media_refugio/Lobitos/"+info[0]+".jpeg"
             cont_imagen.loading = "lazy"
             cont_perro.appendChild(cont_imagen)
-            cont_imagen.addEventListener("click", function() {
+            cont_perro.addEventListener("click", function() {
                 let query = "nombre="+encodeURI(info[0])
                 alert("Adoptando "+info[0]+"...")
                 console.log("query_string: "+"\""+query+"\"")
