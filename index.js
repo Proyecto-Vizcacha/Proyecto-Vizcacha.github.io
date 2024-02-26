@@ -18,12 +18,6 @@ fetch(ruta_info)
             cont_tamano.textContent = info[1]
             cont_perro.appendChild(cont_tamano)
 
-            if (info[2]) {
-                let cont_descripcion = document.createElement("p")
-                cont_descripcion.textContent = info[2]
-                cont_perro.appendChild(cont_descripcion)
-            }
-
             let cont_imagen = document.createElement("img")
             cont_imagen.src = "img/media_refugio/Lobitos/"+info[0]+".jpeg"
             cont_perro.appendChild(cont_imagen)
@@ -32,6 +26,13 @@ fetch(ruta_info)
                 alert("Adoptando "+info[0]+"...")
                 console.log("query_string: "+"\""+query+"\"")
             })
+
+            if (info[2]) {
+                let cont_descripcion = document.createElement("p")
+                cont_descripcion.textContent = info[2]
+                cont_perro.appendChild(cont_descripcion)
+            }
+
 
 
             mascotas.appendChild(cont_perro)
