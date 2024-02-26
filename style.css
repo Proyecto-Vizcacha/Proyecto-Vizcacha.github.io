@@ -6,7 +6,7 @@
     display: inline-block;
     text-decoration: none;
     padding: 15px 32px;
-    background-color:white;
+    background-color:rgb(31, 211, 46);
     transition-duration: 0.4s;
     color:black;
     }
@@ -24,4 +24,5 @@
 
 body{
     text-align: center;
+    background-color: rgb(57, 158, 57);
 }
