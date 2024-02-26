@@ -7,6 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <form>
+        <label for="nombre">nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="apellidos">apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos" required><br>
+        <label for="direccion">direccion</label><br>
+        <input type="text" id="direccion" name="direccion"><br>
+        <label for="Ncuidadores">Numero de personas a disposicion de la mascota</label>
+        <select name="Ncuidadores" id="Ncuidadores">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="+5">+5</option>
+        </select>
+        <br>
+        <label for="Nmacotas">Los dueños son propietarios de alguna otra mascota</label>
+        <select name="Nmacotas" id="Nmacotas">
+            <option value="0">ninguna</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="5+">5+</option>
+        </select>
+        
+    </form>
 </body>
 </html>
