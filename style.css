@@ -30,10 +30,15 @@ body{
 
 .perro>img{
     width: 200px;
+    transition: .2s;
 }
+
+.perro > img:hover {
+    cursor: pointer;
+    width: 240px;
+}
+
 .perro{
     border: 1px solid;
 }
 
-.perro > input {
-}
