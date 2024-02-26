@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    min-width: 0;
+}
+
 .button{
   
     width: 150px;
@@ -15,7 +20,7 @@
 .button:hover {
     background-color: black;
     color:white;
-    padding: 20px 37px; 
+    padding: 15px 45px; 
     border: 3px solid black; 
 }
 
@@ -24,6 +29,7 @@
 }
 
 body{
+    margin-top: 20px;
     text-align: center;
     background-color: rgb(200, 255, 200);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -36,7 +42,7 @@ body{
 #mascotas {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    max-width: 90%;
     overflow-x: scroll;
     margin-left: auto;
     margin-right: auto;
@@ -54,6 +60,7 @@ body{
 }
 
 .perro>img{
+    margin: 15px 0px;
     height: 400px;
     border-radius: 15px;
     border: 2px solid darkgreen;
@@ -63,6 +70,10 @@ body{
 
 .perro > img:hover {
     height: 480px;
+}
+
+.perro > p {
+    font-size: 1.25em;
 }
 
 .perro{
