@@ -29,14 +29,15 @@
 }
 
 body{
-    margin-top: 20px;
+    padding-top: 20px;
     text-align: center;
-    background-color: rgb(200, 255, 200);
+    background-color: #bcffbc;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url("img/media_refugio/Regufio4.jpeg");
-    background-position: 100%;
+
+    /*background-image: url("img/media_refugio/Regufio4.jpeg");
     background-size: cover;
-    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;*/
 }
 
 #mascotas {
@@ -80,7 +81,7 @@ body{
     min-width: 425px;
     padding: 10px 20px;
     border: 2px solid darkgreen;
-    background-color: rgba(180, 255, 180, .8);
+    background-color: rgba(100, 200, 100, 0.8);
     height: 680px;
     border-radius: 15px;
     margin-left: auto;

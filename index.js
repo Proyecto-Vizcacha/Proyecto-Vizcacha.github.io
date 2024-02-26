@@ -20,8 +20,9 @@ fetch(ruta_info)
 
             let cont_imagen = document.createElement("img")
             cont_imagen.src = "img/media_refugio/Lobitos/"+info[0]+".jpeg"
-            cont_imagen.loading = "lazy"
             cont_imagen.alt = "imagen "+info[0]
+            cont_imagen.loading = "lazy"
+            cont_imagen.decode() //Para decodificar la imágen en el momento en el que se carga y evitar que la página se pare durante el scroll
             cont_perro.appendChild(cont_imagen)
             cont_perro.addEventListener("click", function() {
                 let query = "nombre="+encodeURI(info[0])
