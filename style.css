@@ -29,5 +29,8 @@ body{
 }
 
 .perro>img{
-    width: 40%;
+    width: 200px;
+}
+.perro{
+    border: 1px solid;
 }
