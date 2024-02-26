@@ -34,3 +34,6 @@ body{
 .perro{
     border: 1px solid;
 }
+
+.perro > input {
+}

@@ -28,6 +28,17 @@ fetch(ruta_info)
             cont_imagen.src = "img/media_refugio/Lobitos/"+info[0]+".jpeg"
             cont_perro.appendChild(cont_imagen)
 
+            let boton_formulario = document.createElement("input")
+            boton_formulario.type = "button"
+            boton_formulario.value = "ADOPTAR"
+            boton_formulario.onclick = function() {
+                let query = "nombre="+encodeURI(info[0])
+                console.log("Adoptando "+info[0]+"...")
+                console.log("query_string: "+"\""+query+"\"")
+            }
+
+            cont_perro.appendChild(boton_formulario)
+
             mascotas.appendChild(cont_perro)
         }
     })
