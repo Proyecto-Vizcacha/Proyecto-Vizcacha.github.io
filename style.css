@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    min-width: 0;
+}
+
 .button{
   
-    width: 10%;
-
+    width: 150px;
+    border-radius: 20px;
     margin: 4px 2px;
     display: inline-block;
     text-decoration: none;
@@ -15,7 +20,7 @@
 .button:hover {
     background-color: black;
     color:white;
-    padding: 20px 37px; 
+    padding: 15px 45px; 
     border: 3px solid black; 
 }
 
@@ -24,15 +29,20 @@
 }
 
 body{
+    margin-top: 20px;
     text-align: center;
-    background-color: rgb(165, 224, 165);
+    background-color: rgb(200, 255, 200);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("img/media_refugio/Regufio4.jpeg");
+    background-position: 100%;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 #mascotas {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    max-width: 90%;
     overflow-x: scroll;
     margin-left: auto;
     margin-right: auto;
@@ -50,30 +60,35 @@ body{
 }
 
 .perro>img{
+    margin: 15px 0px;
     height: 400px;
+    border-radius: 15px;
+    border: 2px solid darkgreen;
     transition: .2s;
 }
 
+
 .perro > img:hover {
-    cursor: pointer;
     height: 480px;
 }
 
-.perro{
-    padding: 10px 20px;
-    width: 80%;
-    border: 2px solid darkgreen;
-    background-color: rgba(255, 255, 255, 0.5);
-    height: 680px;
-    margin-left: auto;
-    margin-right: auto;
-
+.perro > p {
+    font-size: 1.25em;
 }
 
+.perro{
+    min-width: 425px;
+    padding: 10px 20px;
+    border: 2px solid darkgreen;
+    background-color: rgba(180, 255, 180, .8);
+    height: 680px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin: 20px 20px;
+}
 
-@media only screen and (min-width: 900px) {
-    .perro {
-        width: 40%;
-        margin: 20px 20px;
-    }
+.perro:hover {
+    cursor: pointer;
 }
