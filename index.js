@@ -24,6 +24,10 @@ fetch(ruta_info)
                 cont_perro.appendChild(cont_descripcion)
             }
 
+            let cont_imagen = document.createElement("img")
+            cont_imagen.src = "img/media_refugio/Lobitos/"+info[0]+".jpeg"
+            cont_perro.appendChild(cont_imagen)
+
             mascotas.appendChild(cont_perro)
         }
     })
