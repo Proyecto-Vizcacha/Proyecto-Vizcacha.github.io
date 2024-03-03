@@ -1,5 +1,5 @@
 const mascotas = document.querySelector("#mascotas")
-const ruta_info = "img/media_refugio/Lobitos/Info Dogos.txt"
+const ruta_info = "/img/media_refugio/Lobitos/Info Dogos.txt"
 fetch(ruta_info)
     .then((resultado) => resultado.text())
     .then((texto) => {
