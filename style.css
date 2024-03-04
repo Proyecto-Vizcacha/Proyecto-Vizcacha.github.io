@@ -75,7 +75,7 @@ body{
 
 .perro > p {
     font-size: 1.25em;
-    overflow: auto;
+    text-overflow: ellipsis;
 }
 
 .perro{
@@ -83,7 +83,6 @@ body{
     padding: 10px 20px;
     border: 2px solid darkgreen;
     background-color: rgba(100, 200, 100, 0.8);
-    height: 680px;
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
