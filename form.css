@@ -1,0 +1,10 @@
+form {
+    margin: 10%;
+    padding: 2%;
+    background-color: rgba(69, 181, 41, 0.734);
+    border: solid rgba(0, 128, 0, 0.77);
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.801);
+}

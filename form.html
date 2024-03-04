@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="form.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <HEADER>
@@ -23,14 +24,14 @@
 
         <script src="https://kit.fontawesome.com/c5bea9d63f.js" crossorigin="anonymous"></script>
     </NAV>
-    <form>
-        <label for="nombre">nombre:</label><br>
+    <form method="post">
+        <label for="nombre">nombre: </label>
         <input type="text" id="nombre" name="nombre" required><br>
-        <label for="apellidos">apellidos:</label><br>
+        <label for="apellidos">apellidos: </label>
         <input type="text" id="apellidos" name="apellidos" required><br>
-        <label for="direccion">direccion</label><br>
+        <label for="direccion">dirección: </label>
         <input type="text" id="direccion" name="direccion"><br>
-        <label for="Ncuidadores">Numero de personas a disposicion de la mascota</label>
+        <label for="Ncuidadores">Numero de personas a disposicion de la mascota: </label>
         <select name="Ncuidadores" id="Ncuidadores">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -40,7 +41,7 @@
             <option value="+5">+5</option>
         </select>
         <br>
-        <label for="Nmacotas">Los dueños son propietarios de alguna otra mascota</label>
+        <label for="Nmacotas">¿Los solicitantes son propietarios de alguna otra mascota?</label>
         <select name="Nmacotas" id="Nmacotas">
             <option value="0">ninguna</option>
             <option value="1">1</option>
