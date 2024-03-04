@@ -93,3 +93,13 @@ body{
 .perro:hover {
     cursor: pointer;
 }
+
+#mascotas2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#mascotas2 > div {
+    flex-basis: 25%;
+}
