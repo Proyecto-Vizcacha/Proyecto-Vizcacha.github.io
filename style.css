@@ -103,3 +103,16 @@ body{
 #mascotas2 > div {
     flex-basis: 25%;
 }
+
+footer>p {
+    display: inline-block;
+    text-align: left;
+    background-color: darkgreen;
+}
+
+footer {
+width: 90%;
+    background-color: darkgreen;
+    margin: auto;
+    margin-top: 2%;
+}
