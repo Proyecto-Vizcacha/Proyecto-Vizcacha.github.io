@@ -1,4 +1,4 @@
-const mascotas = document.querySelector("#mascotas")
+const mascotas = document.querySelector("#mascotas") ||document.querySelector("#mascotas2")
 const ruta_info = "/img/media_refugio/Lobitos/Info Dogos.json"
 fetch(ruta_info)
     .then((resultado) => resultado.json())
