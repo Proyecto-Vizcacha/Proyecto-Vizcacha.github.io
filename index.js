@@ -22,6 +22,7 @@ fetch(ruta_info)
             cont_imagen.src = "img/media_refugio/Lobitos/"+nombre+".jpeg"
             cont_imagen.alt = "imagen "+nombre
             cont_imagen.loading = "lazy"
+            cont_imagen.decoding = "async"
             cont_imagen.decode() //Para decodificar la imágen en el momento en el que se carga y evitar que la página se pare durante el scroll
             cont_perro.appendChild(cont_imagen)
             cont_perro.addEventListener("click", function() {
