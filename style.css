@@ -75,6 +75,7 @@ body{
 
 .perro > p {
     font-size: 1.25em;
+    text-overflow: ellipsis;
 }
 
 .perro{
