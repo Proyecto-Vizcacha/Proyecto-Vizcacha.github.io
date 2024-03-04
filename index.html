@@ -6,36 +6,48 @@
     <title>Proyecto vizcacha</title>
     <script src="index.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <HEADER>
+    <header>
         <h1>Refugio patitas</h1>
-    </HEADER>
-    <NAV>
+    </header>
+    <nav>
         <a href="#" class="button">
             <li class="fa-solid fa-house"></li> Inicio
         </a>
-        
-        <a href="form.html" class="button">
-            <li class="fa-solid fa-envelope"></li> Contacto
-        </a>
+    
 
         <a href="adopt.html" class="button">
             <li class="fa-solid fa-dog"></li> Adoptar
         </a>
 
-        <a href="https://maps.app.goo.gl/Rhk3CbtbR9VFbL6N7" class="button" target="_blank">
-            <li class="fa-solid fa-map"></li> Mapa
-        </a>
-
         <script src="https://kit.fontawesome.com/c5bea9d63f.js" crossorigin="anonymous"></script>
-    </NAV>
-    <ASIDE></ASIDE>
-    <MAIN>
-        <DIV id="mascotas">
-            
-        </DIV>
-    </MAIN>
-    <FOOTER></FOOTER>
+    </nav>
+    <aside></aside>
+    <main>
+        <div id="info">
+            <h3>Nuestra descripción</h3>
+            <p>Refugio sin animo de lucro donde un equipo de 40 voluntarios trabajamos para darle a estos perretes una segunda oportunidad, ya que merecen ser queridos y tener un hogar donde ser felices :)</p>
+                
+            <p>Nos puedes encontrar en Las Gabias (Granada) y los sabados tenemos un mercadillo solidario en tienda animal (centro comercial nevada)</p>
+
+        </div>
+
+        <section id="slideshow">
+            <h3>Algunas fotos de nuestro refugio</h3>
+			<div class="entire-content">
+				<div class="content-carrousel">
+					<figure class="shadow"><img src="img/media_refugio/Refugio1.jpeg"/></figure>
+                    <figure class="shadow"><img src="img/media_refugio/Refugio2.jpeg"/></figure>
+					<figure class="shadow"><img src="img/media_refugio/Refugio3.jpeg"/></figure>
+					<figure class="shadow"><img src="img/media_refugio/Regufio4.jpeg"/></figure>
+					<figure class="shadow"><img src="img/media_refugio/Refugio5.jpeg"/></figure>
+                </div>
+            </div>
+        </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3180.603379455895!2d-3.6818520000000006!3d37.13835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDA4JzE4LjEiTiAzwrA0MCc1NC43Ilc!5e0!3m2!1ses!2ses!4v1709575886331!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+    </main>
+    <footer></footer>
 </body>
 </html>
