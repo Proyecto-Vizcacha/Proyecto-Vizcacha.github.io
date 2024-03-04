@@ -26,8 +26,9 @@ fetch(ruta_info)
             cont_perro.appendChild(cont_imagen)
             cont_perro.addEventListener("click", function() {
                 let query = "nombre="+encodeURI(nombre)
-                alert("Adoptando "+nombre+"...")
                 console.log("query_string: "+"\""+query+"\"")
+                location.href="form.html?"+query
+                
             })
 
             let cont_descripcion = document.createElement("p")
